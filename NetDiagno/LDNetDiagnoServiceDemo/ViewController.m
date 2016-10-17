@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "LDNetDiagnoService.h"
 #import "SVProgressHUD.h"
-#import "QiniuSDK.h"
 #import "AFNetworking.h"
 
 

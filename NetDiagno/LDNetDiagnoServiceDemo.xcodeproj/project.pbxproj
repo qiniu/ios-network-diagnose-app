@@ -23,11 +23,6 @@
 		629AF7181A012630001CBB3E /* LDNetTraceRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 629AF7121A012630001CBB3E /* LDNetTraceRoute.m */; };
 		629AF7191A012630001CBB3E /* LDSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 629AF7141A012630001CBB3E /* LDSimplePing.m */; };
 		629AF71B1A012644001CBB3E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629AF71A1A012644001CBB3E /* CoreTelephony.framework */; };
-		932159321C0DA466005170E3 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 932159291C0DA466005170E3 /* Base64Transcoder.m */; };
-		932159331C0DA466005170E3 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321592B1C0DA466005170E3 /* HSK_CFUtilities.m */; };
-		932159341C0DA466005170E3 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321592D1C0DA466005170E3 /* NSData+Base64Additions.m */; };
-		932159351C0DA466005170E3 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9321592F1C0DA466005170E3 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		932159361C0DA466005170E3 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 932159311C0DA466005170E3 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93CF78591C0EC46C00A94965 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93CF78511C0EC46C00A94965 /* LICENSE.txt */; };
 		93CF785A1C0EC46C00A94965 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 93CF78521C0EC46C00A94965 /* README.md */; };
 		93CF785B1C0EC46C00A94965 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CF78551C0EC46C00A94965 /* SVIndefiniteAnimatedView.m */; };
@@ -75,31 +70,6 @@
 		93D10C2F1C29502800B81957 /* QNHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BD21C29502800B81957 /* QNHex.m */; };
 		93D10C301C29502800B81957 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 93D10BD31C29502800B81957 /* LICENSE */; };
 		93D10C311C29502800B81957 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BD41C29502800B81957 /* README.md */; };
-		93D10C321C29502800B81957 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 93D10BD61C29502800B81957 /* LICENSE */; };
-		93D10C331C29502800B81957 /* GTM_Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BDA1C29502800B81957 /* GTM_Base64.m */; };
-		93D10C341C29502800B81957 /* QNALAssetFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BDC1C29502800B81957 /* QNALAssetFile.m */; };
-		93D10C351C29502800B81957 /* QNAsyncRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BDE1C29502800B81957 /* QNAsyncRun.m */; };
-		93D10C361C29502800B81957 /* QNCrc32.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BE01C29502800B81957 /* QNCrc32.m */; };
-		93D10C371C29502800B81957 /* QNEtag.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BE21C29502800B81957 /* QNEtag.m */; };
-		93D10C381C29502800B81957 /* QNFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BE41C29502800B81957 /* QNFile.m */; };
-		93D10C391C29502800B81957 /* QNPHAssetFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BE71C29502800B81957 /* QNPHAssetFile.m */; };
-		93D10C3A1C29502800B81957 /* QNSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BE91C29502800B81957 /* QNSystem.m */; };
-		93D10C3B1C29502800B81957 /* QNUrlSafeBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BEB1C29502800B81957 /* QNUrlSafeBase64.m */; };
-		93D10C3C1C29502800B81957 /* QNDns.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BEF1C29502800B81957 /* QNDns.m */; };
-		93D10C3D1C29502800B81957 /* QNHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BF21C29502800B81957 /* QNHttpManager.m */; };
-		93D10C3E1C29502800B81957 /* QNResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BF41C29502800B81957 /* QNResponseInfo.m */; };
-		93D10C3F1C29502800B81957 /* QNSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BF61C29502800B81957 /* QNSessionManager.m */; };
-		93D10C401C29502800B81957 /* QNStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BF81C29502800B81957 /* QNStats.m */; };
-		93D10C411C29502800B81957 /* QNUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BFA1C29502800B81957 /* QNUserAgent.m */; };
-		93D10C421C29502800B81957 /* QNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10BFE1C29502800B81957 /* QNReachability.m */; };
-		93D10C431C29502800B81957 /* QNFileRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C011C29502800B81957 /* QNFileRecorder.m */; };
-		93D10C441C29502800B81957 /* QNConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C051C29502800B81957 /* QNConfiguration.m */; };
-		93D10C451C29502800B81957 /* QNFormUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C071C29502800B81957 /* QNFormUpload.m */; };
-		93D10C461C29502800B81957 /* QNResumeUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C091C29502800B81957 /* QNResumeUpload.m */; };
-		93D10C471C29502800B81957 /* QNUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C0B1C29502800B81957 /* QNUploadManager.m */; };
-		93D10C481C29502800B81957 /* QNUploadOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C0E1C29502800B81957 /* QNUploadOption.m */; };
-		93D10C491C29502800B81957 /* QNUpToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C101C29502800B81957 /* QNUpToken.m */; };
-		93D10C4A1C29502800B81957 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 93D10C111C29502800B81957 /* README.md */; };
 		93D10C4C1C29506B00B81957 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D10C4B1C29506B00B81957 /* libz.tbd */; };
 		93D10C4E1C29587A00B81957 /* xxxxx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93D10C4D1C29587A00B81957 /* xxxxx.jpeg */; };
 /* End PBXBuildFile section */
@@ -145,16 +115,6 @@
 		629AF7131A012630001CBB3E /* LDSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSimplePing.h; sourceTree = "<group>"; };
 		629AF7141A012630001CBB3E /* LDSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSimplePing.m; sourceTree = "<group>"; };
 		629AF71A1A012644001CBB3E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		932159281C0DA466005170E3 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
-		932159291C0DA466005170E3 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
-		9321592A1C0DA466005170E3 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
-		9321592B1C0DA466005170E3 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
-		9321592C1C0DA466005170E3 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
-		9321592D1C0DA466005170E3 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
-		9321592E1C0DA466005170E3 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
-		9321592F1C0DA466005170E3 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
-		932159301C0DA466005170E3 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
-		932159311C0DA466005170E3 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
 		93CF78511C0EC46C00A94965 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		93CF78521C0EC46C00A94965 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93CF78541C0EC46C00A94965 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -237,60 +197,6 @@
 		93D10BD21C29502800B81957 /* QNHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNHex.m; sourceTree = "<group>"; };
 		93D10BD31C29502800B81957 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93D10BD41C29502800B81957 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		93D10BD61C29502800B81957 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93D10BD91C29502800B81957 /* GTM_Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTM_Base64.h; sourceTree = "<group>"; };
-		93D10BDA1C29502800B81957 /* GTM_Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTM_Base64.m; sourceTree = "<group>"; };
-		93D10BDB1C29502800B81957 /* QNALAssetFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNALAssetFile.h; sourceTree = "<group>"; };
-		93D10BDC1C29502800B81957 /* QNALAssetFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNALAssetFile.m; sourceTree = "<group>"; };
-		93D10BDD1C29502800B81957 /* QNAsyncRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAsyncRun.h; sourceTree = "<group>"; };
-		93D10BDE1C29502800B81957 /* QNAsyncRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAsyncRun.m; sourceTree = "<group>"; };
-		93D10BDF1C29502800B81957 /* QNCrc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNCrc32.h; sourceTree = "<group>"; };
-		93D10BE01C29502800B81957 /* QNCrc32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNCrc32.m; sourceTree = "<group>"; };
-		93D10BE11C29502800B81957 /* QNEtag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNEtag.h; sourceTree = "<group>"; };
-		93D10BE21C29502800B81957 /* QNEtag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNEtag.m; sourceTree = "<group>"; };
-		93D10BE31C29502800B81957 /* QNFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNFile.h; sourceTree = "<group>"; };
-		93D10BE41C29502800B81957 /* QNFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNFile.m; sourceTree = "<group>"; };
-		93D10BE51C29502800B81957 /* QNFileDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNFileDelegate.h; sourceTree = "<group>"; };
-		93D10BE61C29502800B81957 /* QNPHAssetFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNPHAssetFile.h; sourceTree = "<group>"; };
-		93D10BE71C29502800B81957 /* QNPHAssetFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNPHAssetFile.m; sourceTree = "<group>"; };
-		93D10BE81C29502800B81957 /* QNSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNSystem.h; sourceTree = "<group>"; };
-		93D10BE91C29502800B81957 /* QNSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNSystem.m; sourceTree = "<group>"; };
-		93D10BEA1C29502800B81957 /* QNUrlSafeBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNUrlSafeBase64.h; sourceTree = "<group>"; };
-		93D10BEB1C29502800B81957 /* QNUrlSafeBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNUrlSafeBase64.m; sourceTree = "<group>"; };
-		93D10BEC1C29502800B81957 /* QNVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNVersion.h; sourceTree = "<group>"; };
-		93D10BEE1C29502800B81957 /* QNDns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNDns.h; sourceTree = "<group>"; };
-		93D10BEF1C29502800B81957 /* QNDns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNDns.m; sourceTree = "<group>"; };
-		93D10BF01C29502800B81957 /* QNHttpDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNHttpDelegate.h; sourceTree = "<group>"; };
-		93D10BF11C29502800B81957 /* QNHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNHttpManager.h; sourceTree = "<group>"; };
-		93D10BF21C29502800B81957 /* QNHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNHttpManager.m; sourceTree = "<group>"; };
-		93D10BF31C29502800B81957 /* QNResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNResponseInfo.h; sourceTree = "<group>"; };
-		93D10BF41C29502800B81957 /* QNResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNResponseInfo.m; sourceTree = "<group>"; };
-		93D10BF51C29502800B81957 /* QNSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNSessionManager.h; sourceTree = "<group>"; };
-		93D10BF61C29502800B81957 /* QNSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNSessionManager.m; sourceTree = "<group>"; };
-		93D10BF71C29502800B81957 /* QNStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNStats.h; sourceTree = "<group>"; };
-		93D10BF81C29502800B81957 /* QNStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNStats.m; sourceTree = "<group>"; };
-		93D10BF91C29502800B81957 /* QNUserAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNUserAgent.h; sourceTree = "<group>"; };
-		93D10BFA1C29502800B81957 /* QNUserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNUserAgent.m; sourceTree = "<group>"; };
-		93D10BFB1C29502800B81957 /* QiniuSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuSDK.h; sourceTree = "<group>"; };
-		93D10BFD1C29502800B81957 /* QNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNReachability.h; sourceTree = "<group>"; };
-		93D10BFE1C29502800B81957 /* QNReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNReachability.m; sourceTree = "<group>"; };
-		93D10C001C29502800B81957 /* QNFileRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNFileRecorder.h; sourceTree = "<group>"; };
-		93D10C011C29502800B81957 /* QNFileRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNFileRecorder.m; sourceTree = "<group>"; };
-		93D10C021C29502800B81957 /* QNRecorderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNRecorderDelegate.h; sourceTree = "<group>"; };
-		93D10C041C29502800B81957 /* QNConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNConfiguration.h; sourceTree = "<group>"; };
-		93D10C051C29502800B81957 /* QNConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNConfiguration.m; sourceTree = "<group>"; };
-		93D10C061C29502800B81957 /* QNFormUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNFormUpload.h; sourceTree = "<group>"; };
-		93D10C071C29502800B81957 /* QNFormUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNFormUpload.m; sourceTree = "<group>"; };
-		93D10C081C29502800B81957 /* QNResumeUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNResumeUpload.h; sourceTree = "<group>"; };
-		93D10C091C29502800B81957 /* QNResumeUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNResumeUpload.m; sourceTree = "<group>"; };
-		93D10C0A1C29502800B81957 /* QNUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNUploadManager.h; sourceTree = "<group>"; };
-		93D10C0B1C29502800B81957 /* QNUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNUploadManager.m; sourceTree = "<group>"; };
-		93D10C0C1C29502800B81957 /* QNUploadOption+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QNUploadOption+Private.h"; sourceTree = "<group>"; };
-		93D10C0D1C29502800B81957 /* QNUploadOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNUploadOption.h; sourceTree = "<group>"; };
-		93D10C0E1C29502800B81957 /* QNUploadOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNUploadOption.m; sourceTree = "<group>"; };
-		93D10C0F1C29502800B81957 /* QNUpToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNUpToken.h; sourceTree = "<group>"; };
-		93D10C101C29502800B81957 /* QNUpToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNUpToken.m; sourceTree = "<group>"; };
-		93D10C111C29502800B81957 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93D10C4B1C29506B00B81957 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		93D10C4D1C29587A00B81957 /* xxxxx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xxxxx.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -325,10 +231,8 @@
 				50C409FF1B736B6D00C0D877 /* libresolv.dylib */,
 				629AF71A1A012644001CBB3E /* CoreTelephony.framework */,
 				629AF70A1A012630001CBB3E /* LDNetDiagnoService */,
-				932159271C0DA466005170E3 /* SMTPLibrary */,
 				93D10B8B1C29502800B81957 /* AFNetworking */,
 				93D10BB51C29502800B81957 /* HappyDNS */,
-				93D10BD51C29502800B81957 /* Qiniu */,
 				93CF78501C0EC46C00A94965 /* SVProgressHUD */,
 				629AF6E31A0125E5001CBB3E /* LDNetDiagnoServiceDemo */,
 				629AF6FD1A0125E5001CBB3E /* LDNetDiagnoServiceDemoTests */,
@@ -408,24 +312,6 @@
 				620760621B74C27C00761E87 /* Route.h */,
 			);
 			path = LDNetDiagnoService;
-			sourceTree = "<group>";
-		};
-		932159271C0DA466005170E3 /* SMTPLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				932159281C0DA466005170E3 /* Base64Transcoder.h */,
-				932159291C0DA466005170E3 /* Base64Transcoder.m */,
-				9321592A1C0DA466005170E3 /* HSK_CFUtilities.h */,
-				9321592B1C0DA466005170E3 /* HSK_CFUtilities.m */,
-				9321592C1C0DA466005170E3 /* NSData+Base64Additions.h */,
-				9321592D1C0DA466005170E3 /* NSData+Base64Additions.m */,
-				9321592E1C0DA466005170E3 /* NSStream+SKPSMTPExtensions.h */,
-				9321592F1C0DA466005170E3 /* NSStream+SKPSMTPExtensions.m */,
-				932159301C0DA466005170E3 /* SKPSMTPMessage.h */,
-				932159311C0DA466005170E3 /* SKPSMTPMessage.m */,
-			);
-			name = SMTPLibrary;
-			path = LDNetDiagnoServiceDemo/SMTPLibrary;
 			sourceTree = "<group>";
 		};
 		93CF78501C0EC46C00A94965 /* SVProgressHUD */ = {
@@ -604,116 +490,6 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		93D10BD51C29502800B81957 /* Qiniu */ = {
-			isa = PBXGroup;
-			children = (
-				93D10BD61C29502800B81957 /* LICENSE */,
-				93D10BD71C29502800B81957 /* QiniuSDK */,
-				93D10C111C29502800B81957 /* README.md */,
-			);
-			name = Qiniu;
-			path = LDNetDiagnoServiceDemo/Qiniu;
-			sourceTree = SOURCE_ROOT;
-		};
-		93D10BD71C29502800B81957 /* QiniuSDK */ = {
-			isa = PBXGroup;
-			children = (
-				93D10BD81C29502800B81957 /* Common */,
-				93D10BED1C29502800B81957 /* Http */,
-				93D10BFB1C29502800B81957 /* QiniuSDK.h */,
-				93D10BFC1C29502800B81957 /* QNReachability */,
-				93D10BFF1C29502800B81957 /* Recorder */,
-				93D10C031C29502800B81957 /* Storage */,
-			);
-			path = QiniuSDK;
-			sourceTree = "<group>";
-		};
-		93D10BD81C29502800B81957 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				93D10BD91C29502800B81957 /* GTM_Base64.h */,
-				93D10BDA1C29502800B81957 /* GTM_Base64.m */,
-				93D10BDB1C29502800B81957 /* QNALAssetFile.h */,
-				93D10BDC1C29502800B81957 /* QNALAssetFile.m */,
-				93D10BDD1C29502800B81957 /* QNAsyncRun.h */,
-				93D10BDE1C29502800B81957 /* QNAsyncRun.m */,
-				93D10BDF1C29502800B81957 /* QNCrc32.h */,
-				93D10BE01C29502800B81957 /* QNCrc32.m */,
-				93D10BE11C29502800B81957 /* QNEtag.h */,
-				93D10BE21C29502800B81957 /* QNEtag.m */,
-				93D10BE31C29502800B81957 /* QNFile.h */,
-				93D10BE41C29502800B81957 /* QNFile.m */,
-				93D10BE51C29502800B81957 /* QNFileDelegate.h */,
-				93D10BE61C29502800B81957 /* QNPHAssetFile.h */,
-				93D10BE71C29502800B81957 /* QNPHAssetFile.m */,
-				93D10BE81C29502800B81957 /* QNSystem.h */,
-				93D10BE91C29502800B81957 /* QNSystem.m */,
-				93D10BEA1C29502800B81957 /* QNUrlSafeBase64.h */,
-				93D10BEB1C29502800B81957 /* QNUrlSafeBase64.m */,
-				93D10BEC1C29502800B81957 /* QNVersion.h */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		93D10BED1C29502800B81957 /* Http */ = {
-			isa = PBXGroup;
-			children = (
-				93D10BEE1C29502800B81957 /* QNDns.h */,
-				93D10BEF1C29502800B81957 /* QNDns.m */,
-				93D10BF01C29502800B81957 /* QNHttpDelegate.h */,
-				93D10BF11C29502800B81957 /* QNHttpManager.h */,
-				93D10BF21C29502800B81957 /* QNHttpManager.m */,
-				93D10BF31C29502800B81957 /* QNResponseInfo.h */,
-				93D10BF41C29502800B81957 /* QNResponseInfo.m */,
-				93D10BF51C29502800B81957 /* QNSessionManager.h */,
-				93D10BF61C29502800B81957 /* QNSessionManager.m */,
-				93D10BF71C29502800B81957 /* QNStats.h */,
-				93D10BF81C29502800B81957 /* QNStats.m */,
-				93D10BF91C29502800B81957 /* QNUserAgent.h */,
-				93D10BFA1C29502800B81957 /* QNUserAgent.m */,
-			);
-			path = Http;
-			sourceTree = "<group>";
-		};
-		93D10BFC1C29502800B81957 /* QNReachability */ = {
-			isa = PBXGroup;
-			children = (
-				93D10BFD1C29502800B81957 /* QNReachability.h */,
-				93D10BFE1C29502800B81957 /* QNReachability.m */,
-			);
-			path = QNReachability;
-			sourceTree = "<group>";
-		};
-		93D10BFF1C29502800B81957 /* Recorder */ = {
-			isa = PBXGroup;
-			children = (
-				93D10C001C29502800B81957 /* QNFileRecorder.h */,
-				93D10C011C29502800B81957 /* QNFileRecorder.m */,
-				93D10C021C29502800B81957 /* QNRecorderDelegate.h */,
-			);
-			path = Recorder;
-			sourceTree = "<group>";
-		};
-		93D10C031C29502800B81957 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-				93D10C041C29502800B81957 /* QNConfiguration.h */,
-				93D10C051C29502800B81957 /* QNConfiguration.m */,
-				93D10C061C29502800B81957 /* QNFormUpload.h */,
-				93D10C071C29502800B81957 /* QNFormUpload.m */,
-				93D10C081C29502800B81957 /* QNResumeUpload.h */,
-				93D10C091C29502800B81957 /* QNResumeUpload.m */,
-				93D10C0A1C29502800B81957 /* QNUploadManager.h */,
-				93D10C0B1C29502800B81957 /* QNUploadManager.m */,
-				93D10C0C1C29502800B81957 /* QNUploadOption+Private.h */,
-				93D10C0D1C29502800B81957 /* QNUploadOption.h */,
-				93D10C0E1C29502800B81957 /* QNUploadOption.m */,
-				93D10C0F1C29502800B81957 /* QNUpToken.h */,
-				93D10C101C29502800B81957 /* QNUpToken.m */,
-			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -805,7 +581,6 @@
 				629AF6F51A0125E5001CBB3E /* LaunchScreen.xib in Resources */,
 				93CF78691C0EDFA600A94965 /* Icon-72.png in Resources */,
 				93D10C4E1C29587A00B81957 /* xxxxx.jpeg in Resources */,
-				93D10C321C29502800B81957 /* LICENSE in Resources */,
 				93CF786B1C0EDFA600A94965 /* Icon-Small-50.png in Resources */,
 				93D10C1B1C29502800B81957 /* LICENSE in Resources */,
 				93D10C301C29502800B81957 /* LICENSE in Resources */,
@@ -831,77 +606,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D10C491C29502800B81957 /* QNUpToken.m in Sources */,
 				507D0B1A1B71F08300C022DD /* LDNetGetAddress.m in Sources */,
-				932159351C0DA466005170E3 /* NSStream+SKPSMTPExtensions.m in Sources */,
 				93D10C2A1C29502800B81957 /* QNDnspodFree.m in Sources */,
 				93D10C161C29502800B81957 /* AFSecurityPolicy.m in Sources */,
 				93D10C131C29502800B81957 /* AFHTTPRequestOperationManager.m in Sources */,
-				93D10C4A1C29502800B81957 /* README.md in Sources */,
 				93D10C2E1C29502800B81957 /* QNDes.m in Sources */,
 				93D10C311C29502800B81957 /* README.md in Sources */,
 				93D10C121C29502800B81957 /* AFHTTPRequestOperation.m in Sources */,
 				93D10C271C29502800B81957 /* QNNetworkInfo.m in Sources */,
-				93D10C351C29502800B81957 /* QNAsyncRun.m in Sources */,
 				629AF6ED1A0125E5001CBB3E /* ViewController.m in Sources */,
 				93D10C2C1C29502800B81957 /* QNHosts.m in Sources */,
 				93D10C201C29502800B81957 /* UIButton+AFNetworking.m in Sources */,
 				93D10C1E1C29502800B81957 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				93D10C261C29502800B81957 /* QNDomain.m in Sources */,
-				93D10C3D1C29502800B81957 /* QNHttpManager.m in Sources */,
-				93D10C3B1C29502800B81957 /* QNUrlSafeBase64.m in Sources */,
 				93D10C221C29502800B81957 /* UIProgressView+AFNetworking.m in Sources */,
 				93D10C291C29502800B81957 /* QNDnspodEnterprise.m in Sources */,
 				93D10C281C29502800B81957 /* QNRecord.m in Sources */,
-				93D10C411C29502800B81957 /* QNUserAgent.m in Sources */,
-				932159321C0DA466005170E3 /* Base64Transcoder.m in Sources */,
-				932159341C0DA466005170E3 /* NSData+Base64Additions.m in Sources */,
 				93D10C251C29502800B81957 /* QNDnsManager.m in Sources */,
-				93D10C471C29502800B81957 /* QNUploadManager.m in Sources */,
 				93CF785D1C0EC46C00A94965 /* SVProgressHUD.m in Sources */,
 				629AF7191A012630001CBB3E /* LDSimplePing.m in Sources */,
-				93D10C3E1C29502800B81957 /* QNResponseInfo.m in Sources */,
-				93D10C421C29502800B81957 /* QNReachability.m in Sources */,
 				93D10C1C1C29502800B81957 /* README.md in Sources */,
-				93D10C441C29502800B81957 /* QNConfiguration.m in Sources */,
 				93CF785B1C0EC46C00A94965 /* SVIndefiniteAnimatedView.m in Sources */,
 				93D10C1D1C29502800B81957 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				93D10C1F1C29502800B81957 /* UIAlertView+AFNetworking.m in Sources */,
 				93CF785A1C0EC46C00A94965 /* README.md in Sources */,
 				629AF7151A012630001CBB3E /* LDNetDiagnoService.m in Sources */,
 				93D10C141C29502800B81957 /* AFHTTPSessionManager.m in Sources */,
-				93D10C381C29502800B81957 /* QNFile.m in Sources */,
 				93D10C241C29502800B81957 /* UIWebView+AFNetworking.m in Sources */,
-				93D10C431C29502800B81957 /* QNFileRecorder.m in Sources */,
 				629AF6EA1A0125E5001CBB3E /* AppDelegate.m in Sources */,
-				93D10C461C29502800B81957 /* QNResumeUpload.m in Sources */,
-				93D10C401C29502800B81957 /* QNStats.m in Sources */,
-				93D10C3A1C29502800B81957 /* QNSystem.m in Sources */,
-				93D10C361C29502800B81957 /* QNCrc32.m in Sources */,
-				932159361C0DA466005170E3 /* SKPSMTPMessage.m in Sources */,
-				93D10C341C29502800B81957 /* QNALAssetFile.m in Sources */,
 				93D10C231C29502800B81957 /* UIRefreshControl+AFNetworking.m in Sources */,
-				93D10C481C29502800B81957 /* QNUploadOption.m in Sources */,
 				93D10C171C29502800B81957 /* AFURLConnectionOperation.m in Sources */,
 				93D10C181C29502800B81957 /* AFURLRequestSerialization.m in Sources */,
 				93D10C1A1C29502800B81957 /* AFURLSessionManager.m in Sources */,
 				93D10C191C29502800B81957 /* AFURLResponseSerialization.m in Sources */,
-				932159331C0DA466005170E3 /* HSK_CFUtilities.m in Sources */,
-				93D10C451C29502800B81957 /* QNFormUpload.m in Sources */,
 				629AF7161A012630001CBB3E /* LDNetPing.m in Sources */,
 				629AF6E71A0125E5001CBB3E /* main.m in Sources */,
 				629AF7171A012630001CBB3E /* LDNetTimer.m in Sources */,
-				93D10C371C29502800B81957 /* QNEtag.m in Sources */,
 				507D0B1D1B71FE1900C022DD /* LDNetConnect.m in Sources */,
 				93D10C2B1C29502800B81957 /* QNHijackingDetectWrapper.m in Sources */,
 				93D10C151C29502800B81957 /* AFNetworkReachabilityManager.m in Sources */,
 				93D10C211C29502800B81957 /* UIImageView+AFNetworking.m in Sources */,
-				93D10C3C1C29502800B81957 /* QNDns.m in Sources */,
 				629AF7181A012630001CBB3E /* LDNetTraceRoute.m in Sources */,
 				93D10C2F1C29502800B81957 /* QNHex.m in Sources */,
-				93D10C331C29502800B81957 /* GTM_Base64.m in Sources */,
-				93D10C3F1C29502800B81957 /* QNSessionManager.m in Sources */,
-				93D10C391C29502800B81957 /* QNPHAssetFile.m in Sources */,
 				93D10C2D1C29502800B81957 /* QNResolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
